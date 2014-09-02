@@ -1,0 +1,78 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    Since I knew that the HTML was working before the changes were made, I knew
+    that the parts that changed had to be the problem.  This allowed me to only
+    think about things that were different, rather than trying to think about
+    the entire file.
+
+
+How could having easy access to the entire history of a file make you a better
+programmer in the long term?
+
+    By allowing me to compare broken versions of code to working versions,
+    having the history of my project could enable me to find bugs more quickly.
+    I might also be less afraid of breaking my code and more willing to try
+    rewriting it if I know that I can always go back to a working version.
+    Finally, if I forget why I wrote some line of code, I might understand
+    better by finding the commit where it was introduced and getting the context
+    for that change.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+    
+    Having versions saved automatically is less effort on my part.  There is a
+    lower barrier to entry.  However, if versions of my code were saved
+    automatically, there is no guarantee a working version would ever be saved.
+    If I wanted to compare a broken version of my code to a previous working
+    version, I might not actually have a working version.  Finally, when I save
+    versions myself, I can create a meaningful name for each version, which
+    makes the versions a lot easier to navigate.  With autosaved versions, it
+    can be difficult to understand what changes are introduced in each version.
+
+What are the pros and cons of being able to change multiple files in each
+commit?
+
+    When files are interdependent, as they often are in code, changing multiple
+    files in each commit makes sense.  A single logical change may touch more
+    than one file, and it would be nice to group the entire change into one
+    commit.
+
+    When files are independent, tracking them together introduces unnecessary
+    overhead when looking back through the history.  If I changed two unrelated
+    files, then committed the changes together, it would be harder to revert to
+    a previous version of one file without reverting to a previous version of
+    another, which I probably wouldn't want to do.
+
+How can you use the commands git log and git diff to view the history of files?
+    
+    git log shows all the commits, or versions, of my files that I have ever
+    saved (or that the person who created the history ever saved).  I can use
+    that to see the message for each commit, and get a quick idea of the sorts
+    of changes that have been made.
+
+    To dig deeper into any commit, I can use git diff to compare that commit to
+    the previous commit and see exactly what changes were introduced.
+
+How might using version control make you more confident to make changes that
+could break something?
+    
+    If I have previous versions saved, it will be easy to restore a previous,
+    working version of the code if I mess something up.  Not only that, it will
+    be easier to figure out why the code broke since I won't have to worry about
+    forgetting what I changed.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    I used Git to keep track of many of the documents I created when working on
+    this course!  For example, when working on the concept map for this course,
+    I stored that in Git.
+    
+    I also use it for my resume.  I like that when I delete older experience to
+    make room for newer experience, I don't have to worry about forgetting about
+    the details of the previous experience if I ever want to add it again. 
+
+    Of course, I also like to use Git for all of my programming projects.  Since
+    Git was designed with programmers in mind, it really shines for a coding
+    workflow.
