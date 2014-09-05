@@ -67,7 +67,7 @@ Now that you have your workspace set up, what do you want to try using Git for?
 
     I used Git to keep track of many of the documents I created when working on
     this course!  For example, when working on the concept map for this course,
-    I stored that in Git.
+    I stored that in Git.  Of course, I also used Git for these reflections.
     
     I also use it for my resume.  I like that when I delete older experience to
     make room for newer experience, I don't have to worry about forgetting about
@@ -76,3 +76,6 @@ Now that you have your workspace set up, what do you want to try using Git for?
     Of course, I also like to use Git for all of my programming projects.  Since
     Git was designed with programmers in mind, it really shines for a coding
     workflow.
+
+    I also just recently started using Git to track my .bash_profile, as well as
+    my .vimrc, which is a configuration file for my text editor.
