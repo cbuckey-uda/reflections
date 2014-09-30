@@ -1,0 +1,19 @@
+What happens when you create a repository?  Why do you need to do it?
+
+    When I create a repository, Git creates a directory vhere it will keep track
+    of all the versions that I save.  Creating the repository also lets Git know
+    that I want all the files in this directory to be tracked together, but
+    separately from files in different directories.  If I didn't create the
+    repository, Git could create the directory to save the versions in
+    automatically, but it wouldn't know which files I wanted to track together
+    and which I wanted to track separately.
+
+How is the staging area different from the working directory and the repository?
+What value do you think it offers?
+
+    The staging area is an intermediate area where I can add changes before
+    committing them to the repository.  This allows me to add changes to the
+    staging area one-by-one, then commit them all at once, which makes it easier
+    to specify what changes should go into each commit.  That makes the commits
+    more valuable, since the commit history is easier to navigate when I create
+    one commit per logical change.
