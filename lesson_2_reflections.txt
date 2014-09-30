@@ -40,3 +40,10 @@ When would you want to create a new branch, and when would you not?
     making a new branch in Git is so fast and easy that there is really no bad
     time to make a branch, unless I make so many that I cannot keep track of
     them all.
+
+How do the diagrams help you visualize these changes?
+
+    The diagrams show what the parent of each commit is.  When there are
+    multiple branches, I can use the diagrams to easily see what changes will be
+    part of each branch.  They also let me easily see what commit each branch
+    refers to.
