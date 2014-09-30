@@ -17,3 +17,10 @@ What value do you think it offers?
     to specify what changes should go into each commit.  That makes the commits
     more valuable, since the commit history is easier to navigate when I create
     one commit per logical change.
+
+How can you use the staging area to make sure you have one commit per logical
+change?
+
+    If I've made more than one logical change since committing, I can add all
+    the changes affected by the first logical change to the staging area, then
+    commit those without committing the others.
