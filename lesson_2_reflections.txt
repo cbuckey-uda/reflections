@@ -24,3 +24,19 @@ change?
     If I've made more than one logical change since committing, I can add all
     the changes affected by the first logical change to the staging area, then
     commit those without committing the others.
+
+When would you want to create a new branch, and when would you not?
+
+    I like to use master as a stable version of my code and create a new branch
+    when I'm planning on working on something experimental, or that will be
+    non-stable for a little while.  That makes it easier to switch back to the
+    stable version whenever I need to.  This is particularly helpful when I am
+    working with other developers, since the other developers can trust that
+    master is stable.  They can always check out my branch if they are
+    interested in my experimental changes.
+
+    When I'm working on my own, and I make a change that I do not expect to
+    break anything, I frequently don't bother to make another branch.  However,
+    making a new branch in Git is so fast and easy that there is really no bad
+    time to make a branch, unless I make so many that I cannot keep track of
+    them all.
