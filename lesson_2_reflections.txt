@@ -47,3 +47,14 @@ How do the diagrams help you visualize these changes?
     multiple branches, I can use the diagrams to easily see what changes will be
     part of each branch.  They also let me easily see what commit each branch
     refers to.
+
+What is the result of merging two branches together?  Why do we represent it in
+the diagram the way we do?
+
+    The result of merging two branches together is a combined commit with all
+    the changes from both branches.  We represent the merge in the diagram as
+    having two parents - the two commits that it combined.  For non-merge
+    commits, the parent of the commit is the state of the files before that
+    commit was made.  For merge commits, there was no one state of the files
+    before the commit was made, since the merge commit combines two commits
+    together, so it makes sense for the merge commit to have two parents.
