@@ -31,8 +31,8 @@ docs does?
     makes the versions a lot easier to navigate.  With autosaved versions, it
     can be difficult to understand what changes are introduced in each version.
 
-What are the pros and cons of being able to change multiple files in each
-commit?
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
 
     When files are interdependent, as they often are in code, changing multiple
     files in each commit makes sense.  A single logical change may touch more
