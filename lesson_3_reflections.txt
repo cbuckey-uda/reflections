@@ -1,0 +1,8 @@
+When would you want to use a remote repository rather than keeping all your work local?
+    
+    My most common use of remote repositories is when I'm collaborating with other
+    people on a project.  I also use them when I want to share my code with someone,
+    even if they just want to see my code and not contribute to it.  I also
+    sometimes use them when I want to be able to edit code from multiple different
+    computers and keep the code up-to-date on all the computers.  Also, remotes
+    can be a good way to keep a backup of my work.
