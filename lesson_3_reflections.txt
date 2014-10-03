@@ -33,3 +33,12 @@ use one instead of another?
     want to work on that repository locally rather than using the GitHub
     website.  I fork a repository on GitHub when I want to make changes to that
     repository public, but I don't have permission to modify the original.
+
+What is the benefit of having a copy of the last known state of the remote
+stored locally?
+
+    If I am about to go without Internet access for a while, for example to work
+    on a plane, I can update my local copy before I leave.  I can do this even
+    if I'm not ready to merge those changes into my own branches yet.  Then if I
+    want, I can perform the merge while offline, or I need to know what the
+    remote version is at some point, I have an easy way to access it.
