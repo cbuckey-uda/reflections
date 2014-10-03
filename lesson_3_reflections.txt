@@ -59,3 +59,11 @@ and what would be harder?
     important to keep bug-free.  I would be worried that someone else would add
     a change that combined with my change to make a bug, and I might not even
     notice their change!
+
+When would you want to make changes in a separate branch rather than directly in
+master?  What benefits does each approach have?
+
+    I tend to work directly in master more often when I'm working on my own or
+    with just one or two other people.  When working with a large group, though,
+    using branches to keep track of which changes have already been reviewed and
+    approved is extremely helpful.
