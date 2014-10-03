@@ -42,3 +42,20 @@ stored locally?
     if I'm not ready to merge those changes into my own branches yet.  Then if I
     want, I can perform the merge while offline, or I need to know what the
     remote version is at some point, I have an easy way to access it.
+
+How would you collaborate without using Git or GitHub?  What would be easier,
+and what would be harder?
+
+    If I had to collaborate on a coding project without using Git or GitHub (or
+    any other form of version control designed for code), I might suggest that
+    we all make changes to a shared folder, for example, a DropBox folder.  This
+    would be a ligter-weight solution than using Git and GitHub.  However, if we
+    both wanted to work on the same part of the file, it would be very difficult
+    to avoid clobbering each other's changes.
+
+    Real-time collaborative editors like Google Docs are also great for
+    collaboration, but I don't know a good version of Google Docs for code.
+    Even if I did, I would be hesitant to use this approach on code that it's
+    important to keep bug-free.  I would be worried that someone else would add
+    a change that combined with my change to make a bug, and I might not even
+    notice their change!
