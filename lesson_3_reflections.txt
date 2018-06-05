@@ -58,7 +58,7 @@ and what would be harder?
     Even if I did, I would be hesitant to use this approach on code that it's
     important to keep bug-free.  I would be worried that someone else would add
     a change that combined with my change to make a bug, and I might not even
-    notice their change!
+    notice their change!!
 
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
